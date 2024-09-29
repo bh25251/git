@@ -11,7 +11,6 @@ def backup_mysql_db(host, user, password, database, backup_file):
     )
 
     # Create a cursor object just add comment here
-#COMMENT BY AMMU
     cursor = connection.cursor()
 
     # Dump the database using mysqldump command (You need to have mysqldump installed)
